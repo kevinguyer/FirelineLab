@@ -1,0 +1,15 @@
+# Dependencies, local settings, and runtime output
+node_modules/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+
+# Generated local previews and example report exports
+/preview.jpg
+/experiments-preview.jpg
+/sample-paired-report.html
+/sample-multiseed-report.html
